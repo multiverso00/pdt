@@ -1,5 +1,5 @@
 /* Garde une copie de la page chiffrée pour l'ouvrir sans réseau. Le réseau passe d'abord, pour recevoir chaque mise à jour. */
-const CACHE = "geplo-touche";
+const CACHE = "geplo-3";
 const FILES = ["./", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
